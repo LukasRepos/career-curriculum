@@ -2,7 +2,7 @@
 import React from 'react';
 import { Component } from 'react';
 
-import dev02 from "../..//img/dev-luis-02.jpg";
+import dev02 from "../../img/dev-luis-02.jpg";
 
 export default class extends Component {
      render() {
@@ -12,12 +12,8 @@ export default class extends Component {
                     <p className="section__subtitle section__subtitle--about">Designer & developer based out of Aveiro</p>
 
                     <div className="about-me__body">
-                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-                         dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-              aliquip ex ea commodo consequat.</p>
-                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-                         dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-              aliquip ex ea commodo consequat.</p>
+                         <p>I am a 17 years old boy passioned by computera and programming in general. Always ready to learn something new.</p>
+                         <p></p>
                     </div>
 
                     <img src={dev02} alt="Jane leaning against a bus" className="about-me__img" />
