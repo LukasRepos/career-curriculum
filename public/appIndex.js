@@ -1,7 +1,8 @@
 const navToggle = document.querySelector('.nav-toggle');
 
 navToggle.addEventListener('click', () => {
-    document.body.classList.toggle('nav-open');
+     console.log("Ho there");
+     document.body.classList.toggle('nav-open');
 });
 
 const navLinks = document.querySelectorAll('.nav__link');
