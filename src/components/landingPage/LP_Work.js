@@ -1,6 +1,7 @@
 // import packages
 import React from 'react';
 import { Component } from 'react';
+import { Link } from 'react-router-dom'
 
 import portfolio01 from "../../img/portfolio-01.jpg";
 import portfolio02 from "../../img/portfolio-02.jpg";
@@ -15,13 +16,13 @@ export default class extends Component {
 
                          <div className="portfolio">
 
-                              <a href="#" className="portfolio__item">
+                              <Link to="/sololearn" className="portfolio__item">
                                    <img src={portfolio01} alt="" className="portfolio__img" />
-                              </a>
+                              </Link>
 
-                              <a href="#" className="portfolio__item">
+                              <Link to="/pascal" className="portfolio__item">
                                    <img src={portfolio02} alt="" className="portfolio__img" />
-                              </a>
+                              </Link>
                          </div>
                     </section>
                </React.Fragment>

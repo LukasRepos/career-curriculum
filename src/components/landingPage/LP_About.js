@@ -12,7 +12,7 @@ export default class extends Component {
                     <p className="section__subtitle section__subtitle--about">Designer & developer based out of Aveiro</p>
 
                     <div className="about-me__body">
-                         <p>I am a 17 years old boy passioned by computera and programming in general. Always ready to learn something new and to work on new projects.</p>
+                         <p>I am a 17 years old boy passioned by computers and programming in general. Always ready to learn something new and to work on new projects.</p>
                          <p></p>
                     </div>
 

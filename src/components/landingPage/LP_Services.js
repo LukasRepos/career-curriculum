@@ -10,7 +10,7 @@ export default class extends Component {
                     <div className="services">
                          <div className="service">
                               <h3>Design + Development</h3>
-                              <p>I made some designing wok mainly of this website and some backend server with node.js, mongodb and GraphQL.</p>
+                              <p>I made some designing wok namely this website and some backend server with node.js, mongodb and GraphQL.</p>
                          </div>
 
                          <div className="service">

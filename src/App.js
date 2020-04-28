@@ -1,14 +1,28 @@
-import React from 'react';
+import React, { Component } from 'react';
 import './app.css';
 
-import LandingPage from './components/landingPage/landingPage';
+import { Switch, Route, BrowserRouter as Router } from 'react-router-dom';
 
-function App() {
-     return (
-          <div className="App">
-               <LandingPage />
-          </div>
-     );
+import LandingPage from './components/landingPage/landingPage';
+import Sololearn from './components/sololearn/sololearn';
+
+export default class extends Component {
+     render() {
+          return (
+               <Router>
+                    <Switch>
+                         <Route path="/sololearn">
+                              <Sololearn />
+                         </Route>
+                         <Route path="/">
+                              <LandingPage />
+                         </Route>
+                    </Switch>
+               </Router>
+          );
+     }
 }
 
-export default App;
+function Pascal() {
+     return <h1>Pascal</h1>
+}
