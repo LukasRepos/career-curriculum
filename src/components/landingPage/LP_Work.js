@@ -5,6 +5,7 @@ import { Link } from 'react-router-dom'
 
 import portfolio01 from "../../img/portfolio-01.jpg";
 import portfolio02 from "../../img/portfolio-02.jpg";
+import portfolio03 from "../../img/portfolio-03.jpg";
 
 export default class extends Component {
      render() {
@@ -22,6 +23,10 @@ export default class extends Component {
 
                               <Link to="/pascal" className="portfolio__item">
                                    <img src={portfolio02} alt="" className="portfolio__img" />
+                              </Link>
+
+                              <Link to="/project-chatty" className="portfolio__item">
+                                   <img src={portfolio03} alt="" className="portfolio__img" />
                               </Link>
                          </div>
                     </section>

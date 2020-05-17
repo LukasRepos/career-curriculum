@@ -12,7 +12,7 @@ export default class extends Component {
                          Hi, I am <strong>Luís Carlos</strong>
                     </h1>
                     <p className="section__subtitle section__subtitle--intro">Web & Desktop development</p>
-                    <img src={dev01} alt="a picture of Luís Carlos smiling" className="intro__img" />
+                    <img src={dev01} alt="Luís Carlos smiling" className="intro__img" />
                </section>
           );
      }
